@@ -1,0 +1,3 @@
+CompSciFinal.MainActivity;compscifinal.MainActivity
+CompSciFinal.opendeck;compscifinal.opendeck
+CompSciFinal.LoadDeck;compscifinal.LoadDeck

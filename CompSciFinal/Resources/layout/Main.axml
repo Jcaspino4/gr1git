@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_blue_dark">
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="match_parent"
+        android:layout_height="112.3dp"
+        android:text="Create a new Deck?"
+        android:layout_marginBottom="44.7dp"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="5.0dp" />
+    <TextView
+        android:text="Load Decks"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="@android:color/black" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <Button
+            android:text="Up"
+            android:layout_width="192.1dp"
+            android:layout_height="match_parent"
+            android:id="@+id/upbutton" />
+        <Button
+            android:text="Down"
+            android:id="@+id/downbutton"
+            android:layout_width="186.4dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <Button
+        android:text="No Decks Yet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:text="No Decks Yet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3" />
+    <Button
+        android:text="No Decks Yet"
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
